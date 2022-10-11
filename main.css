@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+div#shopping-list {
+    background-color: aquamarine;
+    padding: 15px 35px;
+}
+
+h1 {
+    color: rgb(39, 70, 60);
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+
+input {
+    margin: 15px;
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid rgb(39, 70, 60);
+    border-radius: 2px;
+    color: rgb(49, 77, 68);
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: rgb(49, 77, 68);
+}
+
+ul {
+    padding-top: 20px;
+}
+
+ul li {
+    margin: 10px;
+    list-style: none;
+    font-size: 1rem;
+    color: rgb(49, 77, 68);
+}
+
+button.btn.btn-primary {
+    background-color: rgb(26, 54, 45);
+    color: rgb(160, 181, 175);
+    font-size: 1rem;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid rgb(39, 70, 60);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button.btn.btn-cancel {
+    background-color: rgb(164, 43, 43);
+    color: rgb(213, 195, 195);
+    font-size: 1rem;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid rgb(103, 36, 36);
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+
+p {
+    color: rgb(39, 70, 60);
+    font-size: 1.2rem;
+    text-align: center;
+}
