@@ -24,7 +24,6 @@
                 <button class="btn btn-primary" :disabled="newItem.length === 0" @click="saveItem">Save
                     Item</button>
             </div>
-            <!-- <a v-bind:href="newItem" target="_blank">Link</a> -->
             <ul>
                 <li v-for="item in items">{{ item }}
                 </li>
@@ -40,11 +39,7 @@
                 state: 'dafault',
                 header: 'Shopping List',
                 newItem: '',
-                items: [
-                    '10 cups',
-                    '20 board games',
-                    '1 party hats',
-                ]
+                items: []
             },
             methods: {
                 saveItem: function () {

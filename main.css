@@ -27,10 +27,12 @@ input {
     margin: 15px;
     padding: 10px 20px;
     outline: none;
-    border: 2px solid rgb(39, 70, 60);
+    border: 1px solid #f1f5f8;
     border-radius: 2px;
     color: rgb(49, 77, 68);
     font-size: 1rem;
+    width: 70%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
 }
 
 input::placeholder {
